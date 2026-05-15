@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programas de Pós-Graduação e Residência em Odontologia - SP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Odontologia · Pós-Graduação e Residência</h1>
+    <p class="subtitle">Universidades públicas e hospitais do Estado de São Paulo</p>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="search-box">
+        <input id="search" type="text" placeholder="Buscar programa..." />
+      </div>
+
+      <nav>
+        <section class="group">
+          <h2>Mestrado · Universidades Públicas (SP)</h2>
+          <ul id="list-mestrado"></ul>
+        </section>
+
+        <section class="group">
+          <h2>Residência · Hospitais (SP)</h2>
+          <ul id="list-residencia"></ul>
+        </section>
+      </nav>
+    </aside>
+
+    <main id="details" class="details">
+      <div class="empty">
+        <h2>Selecione um programa</h2>
+        <p>Escolha um programa no menu lateral para ver datas, editais, processo seletivo e requisitos.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
