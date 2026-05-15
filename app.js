@@ -29,6 +29,7 @@ function selectProgram(p, type, li) {
   `).join("");
 
   detailsEl.innerHTML = `
+    <button id="back-btn" class="back-btn" type="button" aria-label="Voltar à lista">&larr; Voltar à lista</button>
     <div class="program-header">
       <h2>${p.nome}</h2>
       <div class="institution">${p.instituicao}</div>
@@ -89,7 +90,7 @@ function selectProgram(p, type, li) {
 
     <div class="section">
       <h3>Links</h3>
-      <p><a class="link" href="${p.edital}" target="_blank" rel="noopener">Página de pós-graduação / editais</a></p>
+      <p><a class="link" href="${p.editalRecente.url}" target="_blank" rel="noopener">Página de pós-graduação / editais</a></p>
       <p><a class="link" href="${p.site}" target="_blank" rel="noopener">Site institucional</a></p>
     </div>
 
@@ -98,6 +99,16 @@ function selectProgram(p, type, li) {
     </div>
   `;
   detailsEl.scrollTop = 0;
+  document.body.classList.add("show-details");
+
+  const backBtn = document.getElementById("back-btn");
+  if (backBtn) backBtn.addEventListener("click", showList);
+}
+
+function showList() {
+  document.body.classList.remove("show-details");
+  document.querySelectorAll(".sidebar li.active").forEach(el => el.classList.remove("active"));
+  window.scrollTo({ top: 0, behavior: "auto" });
 }
 
 function applySearch() {
