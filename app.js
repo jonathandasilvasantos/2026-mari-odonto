@@ -1,7 +1,14 @@
 const listMestrado = document.getElementById("list-mestrado");
 const listResidencia = document.getElementById("list-residencia");
+const listExterior = document.getElementById("list-exterior");
 const detailsEl = document.getElementById("details");
 const searchInput = document.getElementById("search");
+
+const TIPO_LABEL = {
+  mestrado: "Mestrado",
+  residencia: "Residência",
+  exterior: "Mestrado · Exterior (bolsa)"
+};
 
 function renderList(programs, container, type) {
   container.innerHTML = "";
@@ -19,7 +26,7 @@ function selectProgram(p, type, li) {
   document.querySelectorAll(".sidebar li.active").forEach(el => el.classList.remove("active"));
   if (li) li.classList.add("active");
 
-  const tipoLabel = type === "mestrado" ? "Mestrado" : "Residência";
+  const tipoLabel = TIPO_LABEL[type] || type;
 
   const datasHtml = Object.entries(p.datas).map(([k, v]) => `
     <div class="date-item">
@@ -45,6 +52,13 @@ function selectProgram(p, type, li) {
       <h3>Vagas</h3>
       <p>${p.vagas || "Consultar edital vigente."}</p>
     </div>
+
+    ${p.bolsa ? `
+    <div class="section bolsa">
+      <h3>Bolsa / Financiamento</h3>
+      <p>${p.bolsa}</p>
+    </div>
+    ` : ""}
 
     <div class="section highlight">
       <h3>Último edital publicado</h3>
@@ -123,3 +137,4 @@ searchInput.addEventListener("input", applySearch);
 
 renderList(PROGRAMS.mestrado, listMestrado, "mestrado");
 renderList(PROGRAMS.residencia, listResidencia, "residencia");
+renderList(PROGRAMS.exterior, listExterior, "exterior");

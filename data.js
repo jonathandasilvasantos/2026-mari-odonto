@@ -660,5 +660,317 @@ const PROGRAMS = {
       },
       site: "https://www.iamspe.sp.gov.br"
     }
+  ],
+
+  exterior: [
+    {
+      id: "korea-gks",
+      nome: "Global Korea Scholarship (GKS) - Mestrado em Odontologia",
+      instituicao: "Coreia do Sul · Seoul National University, Yonsei, Korea University, KAIST",
+      areas: [
+        "Programas de Mestrado em Odontologia (Dentistry / Oral Sciences)",
+        "Áreas de pesquisa: Periodontia, Reabilitação Oral, Biologia Oral, Implantodontia",
+        "Possibilidade de programas em inglês em algumas universidades (verificar)"
+      ],
+      vagas: "≈ 1.300 bolsas/ano (todas áreas) via Embassy Track + University Track. Vagas específicas de Odontologia variam por universidade.",
+      datas: {
+        "Inscrições (Embassy)": "Fev–Mar/2026",
+        "Inscrições (University)": "Mar/2026 (varia por universidade)",
+        "Início": "Setembro/2026 ou Março/2027",
+        "Curso de coreano": "1 ano (caso necessário)"
+      },
+      processo: [
+        "Etapa 1: seleção pela embaixada coreana no Brasil OU pela universidade",
+        "Etapa 2: NIIED (avaliação final pelo governo coreano)",
+        "Etapa 3: aceitação na universidade de destino",
+        "Documentos: histórico, diploma, projeto, cartas de recomendação, autoapresentação"
+      ],
+      requisitos: [
+        "Cidadania não-coreana (candidato e pais)",
+        "Menos de 40 anos",
+        "Diploma de graduação (ou Mestrado se for para PhD)",
+        "GPA mínimo de 80% (ou top 20% da turma)",
+        "Boa saúde física e mental",
+        "Proficiência em inglês ou coreano (ver seção)"
+      ],
+      proficiencia: {
+        idioma: "Inglês ou Coreano",
+        validade: "Conforme cada teste",
+        criterios: [
+          "TOPIK (coreano) nível 5 ou 6 - dispensa o ano de língua coreana",
+          "TOEFL iBT mínimo 80 ou IELTS 5,5 (para programas em inglês)",
+          "Candidatos sem TOPIK fazem 1 ano de curso de coreano financiado pela bolsa",
+          "Quem atinge TOPIK 5+ recebe bônus mensal de 100.000 KRW"
+        ]
+      },
+      editalRecente: {
+        descricao: "Edital GKS 2026 - Study in Korea (NIIED)",
+        url: "https://www.studyinkorea.go.kr/in/plan/scholarship.do"
+      },
+      provasAnteriores: {
+        descricao: "Documentos e guias dos editais anteriores - GKS portal",
+        url: "https://www.studyinkorea.go.kr/in/plan/scholarship.do"
+      },
+      bolsa: "Mensalidade 1.000.000 KRW (≈ US$ 750) + tuition integral + passagem ida/volta + seguro saúde + auxílio instalação 200.000 KRW + bolsa de tese",
+      site: "https://en.snu.ac.kr/admission/graduate/scholarships/before_application"
+    },
+    {
+      id: "japan-mext",
+      nome: "MEXT Scholarship - Mestrado em Odontologia",
+      instituicao: "Japão · Institute of Science Tokyo (ex-TMDU), Osaka University, Tohoku, Kyushu",
+      areas: [
+        "Oral Health Sciences",
+        "Medical and Dental Sciences",
+        "Pesquisa em Cirurgia Oral, Reabilitação, Biologia Oral, Materiais Dentários",
+        "Pesquisa básica e clínica em odontologia"
+      ],
+      vagas: "Cota global anual via embaixadas + recomendação universitária. Vagas específicas em odontologia variam por universidade.",
+      datas: {
+        "Inscrições (Embassy)": "Abril–Maio/2026 (Embaixada do Japão no Brasil)",
+        "Inscrições (University)": "Conforme cada universidade (Set–Dez/2026)",
+        "Exame escrito": "Junho/2026",
+        "Entrevista": "Julho–Agosto/2026",
+        "Início": "Abril/2027 ou Outubro/2027",
+        "Curso de japonês": "6 meses (pré-acadêmico, se necessário)"
+      },
+      processo: [
+        "Embassy Recommendation: aplicação via Embaixada do Japão",
+        "University Recommendation: nomeação direta pela universidade japonesa",
+        "Exame escrito (inglês + japonês básico)",
+        "Entrevista presencial/online",
+        "Período de research student (pesquisador) antes do mestrado oficial"
+      ],
+      requisitos: [
+        "Não ter cidadania japonesa",
+        "Menos de 35 anos (geralmente)",
+        "Diploma de graduação ou equivalente",
+        "Saúde física e mental adequada",
+        "Disponibilidade para aprender japonês"
+      ],
+      proficiencia: {
+        idioma: "Inglês ou Japonês",
+        validade: "Conforme cada teste",
+        criterios: [
+          "TOEFL iBT 80+ ou IELTS 6.0+ (programas em inglês)",
+          "JLPT N2 ou N1 (Japanese-Language Proficiency Test) para programas em japonês",
+          "Muitos programas em odontologia ainda exigem japonês mesmo se o curso for em inglês",
+          "Curso de japonês de 6 meses oferecido antes do mestrado quando necessário"
+        ]
+      },
+      editalRecente: {
+        descricao: "MEXT Scholarship - Study in Japan (site oficial)",
+        url: "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/"
+      },
+      provasAnteriores: {
+        descricao: "Past Exam Questions - MEXT Scholarship (provas oficiais publicadas)",
+        url: "https://www.studyinjapan.go.jp/en/planning/scholarships/applying/instructions/"
+      },
+      bolsa: "Mensalidade 144.000–145.000 JPY (≈ US$ 970) + isenção integral de tuition + passagem ida/volta + seguro saúde",
+      site: "https://tokyoscholarship.com/tokyo-medical-and-dental-university-scholarship-japan/"
+    },
+    {
+      id: "usa-fulbright",
+      nome: "Fulbright + Programas MS/PhD em Dental Research",
+      instituicao: "EUA · Harvard, University of Michigan, NYU, UPenn, UCSF, UNC Chapel Hill",
+      areas: [
+        "Master of Medical Sciences (MMSc) em Oral Biology - Harvard",
+        "MS em Dental Research / Oral Health Sciences",
+        "PhD em Oral & Craniofacial Sciences (geralmente mais funded que MS)",
+        "Programas clínicos DDS/DMD para estrangeiros (Advanced Standing) - normalmente NÃO oferecem bolsa"
+      ],
+      vagas: "Fulbright Brasil: ≈ 30 bolsas/ano (todas áreas). Programas de pesquisa: vagas reduzidas por departamento.",
+      datas: {
+        "Fulbright Brasil - inscrições": "Fevereiro–Maio/2026 (para ingresso em Ago/2027)",
+        "Aplicação às universidades": "Set–Dez/2026 (deadlines variam)",
+        "Início acadêmico": "Agosto/2027 (fall semester)"
+      },
+      processo: [
+        "Etapa 1: aplicação Fulbright Brasil (Comissão Fulbright)",
+        "Etapa 2: entrevistas + provas (TOEFL, GRE quando exigido)",
+        "Etapa 3: aplicação separada à universidade-destino",
+        "Etapa 4: aceitação acadêmica + bolsa Fulbright complementar"
+      ],
+      requisitos: [
+        "Cidadania brasileira (Fulbright Brasil)",
+        "Diploma de graduação em Odontologia (ou área correlata)",
+        "Boa nota no GRE (em alguns programas)",
+        "Projeto de pesquisa alinhado a um lab/orientador nos EUA",
+        "Comprometimento de retorno ao Brasil após o programa"
+      ],
+      proficiencia: {
+        idioma: "Inglês",
+        validade: "TOEFL/IELTS: 2 anos",
+        criterios: [
+          "TOEFL iBT mínimo 90–100 (varia por universidade; Harvard exige 104+)",
+          "IELTS mínimo 7.0–7.5",
+          "Duolingo English Test aceito em algumas universidades (mínimo 120+)",
+          "GRE General Test (algumas escolas como UPenn ainda exigem)"
+        ]
+      },
+      editalRecente: {
+        descricao: "Edital Fulbright Brasil - Mestrado/Doutorado",
+        url: "https://fulbright.org.br/edital/mestrado-doutorado/"
+      },
+      provasAnteriores: {
+        descricao: "Repositório de provas anteriores - ETS (TOEFL/GRE)",
+        url: "https://www.ets.org/toefl"
+      },
+      bolsa: "Fulbright: tuition (até US$ 30.000/ano) + estipêndio mensal + seguro saúde + passagem. Programas de pesquisa (PhD em Oral Sciences): TA/RA cobrindo tuition + estipêndio US$ 30.000–40.000/ano",
+      site: "https://hsdm.harvard.edu/admissions/program-finder"
+    },
+    {
+      id: "canada-mcgill",
+      nome: "MSc Dental Sciences - bolsas para internacionais",
+      instituicao: "Canadá · McGill, University of Toronto, UBC, University of Alberta",
+      areas: [
+        "MSc in Dental Sciences (McGill)",
+        "MSc in Dentistry (U of T, UBC)",
+        "MSc/MMSc em especialidades: Ortodontia, Periodontia, Endodontia, CTBMF, Odontopediatria",
+        "Pesquisa em Oral Health Sciences"
+      ],
+      vagas: "Várias por departamento (geralmente 2–6 vagas/ano por especialidade). Funding usualmente garantido para MSc research-based.",
+      datas: {
+        "Inscrições McGill": "Setembro–Dezembro/2026",
+        "Inscrições U of T / UBC": "Outubro–Janeiro/2027",
+        "Início": "Setembro/2027 (fall) ou Janeiro/2028 (winter)"
+      },
+      processo: [
+        "Identificação prévia de orientador (essencial)",
+        "Aplicação online à graduate school",
+        "Carta de aceite do supervisor é o passo decisivo",
+        "Aplicação a bolsas internas (Graduate Excellence, Differential Fee Waiver)",
+        "Aplicação paralela a Vanier CGS, Trudeau Scholarship (PhD) ou McCall MacBain (Master's)"
+      ],
+      requisitos: [
+        "Diploma de graduação com GPA mínimo equivalente a B+ / 3.3 (4.0)",
+        "Currículo Lattes/CV com publicações (diferencial)",
+        "Projeto de pesquisa ou área de interesse definida",
+        "Cartas de recomendação (2–3)",
+        "Comprovação financeira (para visto)"
+      ],
+      proficiencia: {
+        idioma: "Inglês (francês opcional no McGill)",
+        validade: "TOEFL/IELTS: 2 anos",
+        criterios: [
+          "TOEFL iBT mínimo 86–100 (McGill: 86; U of T: 93; UBC: 90)",
+          "IELTS mínimo 6.5–7.0",
+          "CAEL (Canadian Academic English Language) - mínimo 70",
+          "MELAB - mínimo 85 (algumas universidades)"
+        ]
+      },
+      editalRecente: {
+        descricao: "McGill - Funding, Scholarships and Awards (Faculty of Dental Medicine)",
+        url: "https://www.mcgill.ca/dentistry/programs/awards"
+      },
+      provasAnteriores: {
+        descricao: "Não há prova de admissão centralizada - seleção por análise + entrevista",
+        url: "https://www.mcgill.ca/gradapplicants/funding/external/mccall-macbain-scholarship"
+      },
+      bolsa: "McGill Graduate Excellence Award: CAD 3.000–10.000/ano + RA/TA. McCall MacBain (Master's): tuition integral + CAD 2.000/mês + leadership program. Vanier (PhD): CAD 50.000/ano por 3 anos.",
+      site: "https://www.mcgill.ca/dentistry/programs/awards"
+    },
+    {
+      id: "australia-rtp",
+      nome: "RTP Scholarship - Master by Research em Dentistry",
+      instituicao: "Austrália · Univ. of Melbourne, Univ. of Sydney, Univ. of Adelaide, Univ. of Queensland",
+      areas: [
+        "Master of Philosophy (MPhil) in Dentistry",
+        "Master of Dental Science by Research",
+        "Especialidades por pesquisa: Ortodontia, Endodontia, Periodontia, Odontopediatria, CTBMF",
+        "Pesquisa em Oral Health"
+      ],
+      vagas: "RTP é alocado por universidade; cada Faculty of Dentistry tem cota anual (geralmente 5–15 vagas para internacionais).",
+      datas: {
+        "Inscrições principais": "Geralmente Abril–Out/2026 (rounds 1 e 2)",
+        "Início": "Fevereiro ou Julho/2027",
+        "Duração": "2 anos (research master)"
+      },
+      processo: [
+        "Identificar supervisor potencial e enviar Expression of Interest (EOI)",
+        "Submeter aplicação formal à universidade após aceite do supervisor",
+        "Aplicação automática ao RTP (não há formulário separado em várias universidades)",
+        "Ranking competitivo entre todos candidatos da escola"
+      ],
+      requisitos: [
+        "Graduação em Odontologia com Honours (ou equivalente) ou publicações",
+        "GPA mínimo equivalente a 75% (varia)",
+        "Pesquisa anterior (TCC, IC, mestrado profissional)",
+        "Currículo com publicações é diferencial decisivo",
+        "Aceite formal de um supervisor antes da aplicação"
+      ],
+      proficiencia: {
+        idioma: "Inglês",
+        validade: "TOEFL/IELTS/PTE: 2 anos",
+        criterios: [
+          "IELTS Academic mínimo 6.5 geral (com 6.0 em cada banda)",
+          "TOEFL iBT mínimo 79 (com 21 em writing)",
+          "PTE Academic mínimo 58–65",
+          "Cambridge C1 Advanced - 176+",
+          "Universidades top (Melbourne/Sydney) podem exigir IELTS 7.0"
+        ]
+      },
+      editalRecente: {
+        descricao: "Research Training Program (RTP) - Australian Government",
+        url: "https://www.education.gov.au/research-block-grants/research-training-program"
+      },
+      provasAnteriores: {
+        descricao: "Não há prova de admissão - seleção via mérito acadêmico e proposta de pesquisa",
+        url: "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html"
+      },
+      bolsa: "RTP Fees Offset (tuition integral) + RTP Stipend ≈ AUD 35.000/ano (tax-free) + auxílio relocação + cobertura de health insurance (OSHC) para o aluno e dependentes",
+      site: "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships"
+    },
+    {
+      id: "europe-erasmus",
+      nome: "Erasmus Mundus Joint Masters + Programas Nacionais",
+      instituicao: "Europa · Alemanha (DAAD), Suécia (SI), Itália, Espanha, Portugal, Holanda",
+      areas: [
+        "Erasmus Mundus em áreas correlatas (saúde pública, biomateriais, biotecnologia oral)",
+        "MSc em Dental Materials (Karolinska Institutet - Suécia)",
+        "MSc em Oral Health Sciences (Universidades alemãs via DAAD)",
+        "Programas em Portugal (FMDUP, FMDUL) - aceitam brasileiros com bolsas CAPES/FCT"
+      ],
+      vagas: "Erasmus Mundus: ≈ 60 bolsas/programa global. DAAD: ≈ 100 bolsas/ano para América Latina. Cada programa tem cota própria.",
+      datas: {
+        "Erasmus Mundus - inscrições": "Out/2025 a Fev/2026 (varia por programa)",
+        "DAAD - inscrições": "Maio–Outubro/2026",
+        "Início (Erasmus Mundus)": "Setembro/2026 ou 2027",
+        "Início (DAAD)": "Outubro/2026"
+      },
+      processo: [
+        "Erasmus Mundus: aplicação centralizada ao consortium de universidades",
+        "DAAD: aplicação direta ao DAAD com aceite prévio de orientador",
+        "Documentos: histórico, motivation letter, cartas, CV, proposta de pesquisa",
+        "Entrevista online (algumas etapas)"
+      ],
+      requisitos: [
+        "Diploma de graduação (idealmente em Odontologia)",
+        "GPA mínimo: varia (geralmente top 30% da turma)",
+        "Cartas de recomendação acadêmicas",
+        "Motivation letter alinhada ao programa",
+        "Experiência em pesquisa (diferencial)"
+      ],
+      proficiencia: {
+        idioma: "Inglês (e às vezes alemão, francês, espanhol)",
+        validade: "TOEFL/IELTS: 2 anos",
+        criterios: [
+          "IELTS Academic mínimo 6.5 (Erasmus Mundus padrão)",
+          "TOEFL iBT mínimo 90",
+          "Cambridge CAE ou Proficiency",
+          "DAAD: muitos programas exigem alemão (TestDaF 4) ou inglês C1",
+          "Karolinska/Suécia: IELTS 6.5 ou TOEFL iBT 90"
+        ]
+      },
+      editalRecente: {
+        descricao: "Erasmus Mundus Joint Masters - Catálogo oficial",
+        url: "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters"
+      },
+      provasAnteriores: {
+        descricao: "Não há prova centralizada - seleção por análise documental e entrevista",
+        url: "https://www.daad.de/en/study-and-research-in-germany/scholarships/"
+      },
+      bolsa: "Erasmus Mundus: EUR 1.400/mês + tuition + passagem + seguro + instalação. DAAD: EUR 992/mês + tuition + viagem + seguro. Karolinska: tuition integral (≈ SEK 200.000/ano).",
+      site: "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters"
+    }
   ]
 };

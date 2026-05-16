@@ -180,6 +180,12 @@ body {
 .section.proficiencia h3 { color: #1e4d7b; }
 .section.proficiencia strong { color: #1e4d7b; }
 
+.section.bolsa {
+  background: linear-gradient(135deg, #f5f0ff, #ece1ff);
+  border-color: #b89ce8;
+}
+.section.bolsa h3 { color: #5b3a8c; }
+
 .section h3 {
   margin: 0 0 12px;
   color: var(--primary);
