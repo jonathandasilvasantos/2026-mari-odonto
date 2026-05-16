@@ -102,6 +102,34 @@ function selectProgram(p, type, li) {
     </div>
     ` : ""}
 
+    ${p.comoFunciona ? `
+    <div class="section como-funciona">
+      <h3>Como funciona (passo a passo)</h3>
+      <ol>${p.comoFunciona.map(s => `<li>${s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")}</li>`).join("")}</ol>
+    </div>
+    ` : ""}
+
+    ${p.documentos ? `
+    <div class="section documentos">
+      <h3>Documentos exigidos</h3>
+      <ul>${p.documentos.map(d => `<li>${d}</li>`).join("")}</ul>
+    </div>
+    ` : ""}
+
+    ${p.dicasBrasileiros ? `
+    <div class="section dicas">
+      <h3>Dicas para candidatos brasileiros</h3>
+      <ul>${p.dicasBrasileiros.map(d => `<li>${d}</li>`).join("")}</ul>
+    </div>
+    ` : ""}
+
+    ${p.contato ? `
+    <div class="section contato">
+      <h3>Contato oficial</h3>
+      <p>${p.contato}</p>
+    </div>
+    ` : ""}
+
     <div class="section">
       <h3>Links</h3>
       <p><a class="link" href="${p.editalRecente.url}" target="_blank" rel="noopener">Página de pós-graduação / editais</a></p>

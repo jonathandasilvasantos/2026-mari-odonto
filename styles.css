@@ -186,6 +186,34 @@ body {
 }
 .section.bolsa h3 { color: #5b3a8c; }
 
+.section.como-funciona {
+  background: linear-gradient(135deg, #fffaf0, #fff1d6);
+  border-color: #f0c987;
+}
+.section.como-funciona h3 { color: #8a5a00; }
+.section.como-funciona ol { margin: 0; padding-left: 22px; }
+.section.como-funciona li { margin-bottom: 10px; line-height: 1.55; }
+
+.section.documentos {
+  background: #fbfbfb;
+  border-color: #d8d8d8;
+}
+.section.documentos h3 { color: #444; }
+
+.section.dicas {
+  background: linear-gradient(135deg, #fff4f0, #ffe2d6);
+  border-color: #f0a37a;
+}
+.section.dicas h3 { color: #a83c00; }
+.section.dicas li { margin-bottom: 8px; line-height: 1.5; }
+
+.section.contato {
+  background: #f7f9fc;
+  border-color: #cdd8e8;
+  font-size: 0.92rem;
+}
+.section.contato h3 { color: #3b5a8c; }
+
 .section h3 {
   margin: 0 0 12px;
   color: var(--primary);
